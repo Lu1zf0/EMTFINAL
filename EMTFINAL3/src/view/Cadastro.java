@@ -1,8 +1,6 @@
 package view;
 
 import controller.CadastroController;
-import dao.Conexao;
-import dao.UsuarioDAO;
 import java.awt.Color;
 import java.awt.Cursor;
 import java.awt.GradientPaint;
@@ -12,13 +10,8 @@ import java.awt.RenderingHints;
 import javax.swing.JButton;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
-import java.sql.*;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-import javax.swing.JOptionPane;
 import javax.swing.JPasswordField;
 import javax.swing.JTextField;
-import model.Usuario;
 
 
 public class Cadastro extends javax.swing.JFrame {
